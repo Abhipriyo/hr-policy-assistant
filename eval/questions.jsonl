@@ -1,0 +1,40 @@
+{"id": "q01", "question": "How many days of annual leave do full-time staff get each year?", "doc": "leave_policy", "page": 1, "expect": ["18"]}
+{"id": "q02", "question": "How quickly does annual leave build up each month?", "doc": "leave_policy", "page": 1, "expect": ["1.5"]}
+{"id": "q03", "question": "How far in advance must I request a week off?", "doc": "leave_policy", "page": 1, "expect": ["7 days"]}
+{"id": "q04", "question": "Can I take a long holiday while still on probation?", "doc": "leave_policy", "page": 1, "expect": ["5 days"]}
+{"id": "q05", "question": "How many unused vacation days roll over to next year?", "doc": "leave_policy", "page": 2, "expect": ["10 days"]}
+{"id": "q06", "question": "Do I get paid for unused leave when I resign?", "doc": "leave_policy", "page": 2, "expect": ["30 days"]}
+{"id": "q07", "question": "When is a doctor's note needed for being off sick?", "doc": "leave_policy", "page": 2, "expect": ["2 consecutive days", "more than 2"]}
+{"id": "q08", "question": "What is the maximum number of casual leave days I can take in a row?", "doc": "leave_policy", "page": 2, "expect": ["3 consecutive", "3 days"]}
+{"id": "q09", "question": "How long is maternity leave?", "doc": "leave_policy", "page": 3, "expect": ["26 weeks"]}
+{"id": "q10", "question": "How much time off do new fathers get?", "doc": "leave_policy", "page": 3, "expect": ["10 working days"]}
+{"id": "q11", "question": "How many days off are given if a parent passes away?", "doc": "leave_policy", "page": 3, "expect": ["5 working days", "5 days"]}
+{"id": "q12", "question": "How many public holidays are there, and can I choose any?", "doc": "leave_policy", "page": 3, "expect": ["12"]}
+{"id": "q13", "question": "How many days a week do I need to be in the office?", "doc": "remote_work_policy", "page": 1, "expect": ["3 days"]}
+{"id": "q14", "question": "What are the core hours when I must be available?", "doc": "remote_work_policy", "page": 1, "expect": ["11:00"]}
+{"id": "q15", "question": "Who needs to approve a fully remote arrangement?", "doc": "remote_work_policy", "page": 1, "expect": ["Vice President"]}
+{"id": "q16", "question": "Is there an allowance for home internet?", "doc": "remote_work_policy", "page": 2, "expect": ["1,500", "1500"]}
+{"id": "q17", "question": "Can I claim money for a desk and chair at home?", "doc": "remote_work_policy", "page": 2, "expect": ["15,000", "15000"]}
+{"id": "q18", "question": "How many days a year can I work from abroad?", "doc": "remote_work_policy", "page": 2, "expect": ["30 days"]}
+{"id": "q19", "question": "What should I do if my work laptop is stolen?", "doc": "remote_work_policy", "page": 2, "expect": ["24 hours"]}
+{"id": "q20", "question": "Can a director fly business class to London?", "doc": "travel_expense_policy", "page": 1, "expect": ["8 hours"]}
+{"id": "q21", "question": "Can I book my flight on a website other than the travel portal?", "doc": "travel_expense_policy", "page": 1, "expect": ["lower"]}
+{"id": "q22", "question": "What is the maximum hotel rate in Hyderabad?", "doc": "travel_expense_policy", "page": 2, "expect": ["7,000", "7000"]}
+{"id": "q23", "question": "How much is the meal allowance per day on a trip abroad?", "doc": "travel_expense_policy", "page": 2, "expect": ["USD 60", "60"]}
+{"id": "q24", "question": "What is the reimbursement rate for driving my own car?", "doc": "travel_expense_policy", "page": 2, "expect": ["12"]}
+{"id": "q25", "question": "What is the deadline for submitting travel expense claims?", "doc": "travel_expense_policy", "page": 3, "expect": ["30 days"]}
+{"id": "q26", "question": "Can I expense drinks at a client dinner?", "doc": "travel_expense_policy", "page": 3, "expect": ["alcohol", "not"]}
+{"id": "q27", "question": "Who approves a claim of INR 75,000?", "doc": "travel_expense_policy", "page": 3, "expect": ["Finance Head"]}
+{"id": "q28", "question": "Can I accept a gift from a vendor?", "doc": "code_of_conduct", "page": 1, "expect": ["2,000", "2000"]}
+{"id": "q29", "question": "Am I allowed to do freelance work on weekends?", "doc": "code_of_conduct", "page": 1, "expect": ["approval"]}
+{"id": "q30", "question": "How do I report sexual harassment?", "doc": "code_of_conduct", "page": 2, "expect": ["Internal Committee"]}
+{"id": "q31", "question": "What is the notice period after I am confirmed?", "doc": "probation_exit_policy", "page": 1, "expect": ["60 days"]}
+{"id": "q32", "question": "How long is the probation period, and can it be extended?", "doc": "probation_exit_policy", "page": 1, "expect": ["6 months"]}
+{"id": "q33", "question": "Can I use my leave balance to shorten my notice period?", "doc": "probation_exit_policy", "page": 2, "expect": ["cannot"]}
+{"id": "q34", "question": "When will I receive my final settlement after leaving?", "doc": "probation_exit_policy", "page": 2, "expect": ["45 days"]}
+{"id": "u01", "question": "What is the capital of France?", "doc": null, "page": null, "expect": []}
+{"id": "u02", "question": "Who won the last cricket world cup?", "doc": null, "page": null, "expect": []}
+{"id": "u03", "question": "Does the company pay for a gym membership?", "doc": null, "page": null, "expect": []}
+{"id": "u04", "question": "What is the dress code?", "doc": null, "page": null, "expect": []}
+{"id": "u05", "question": "How do I reset my email password?", "doc": null, "page": null, "expect": []}
+{"id": "u06", "question": "What is the company's annual bonus percentage?", "doc": null, "page": null, "expect": []}
