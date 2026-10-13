@@ -1,5 +1,4 @@
 .env
-.agents/
 .venv/
 __pycache__/
 *.egg-info/
@@ -7,3 +6,4 @@ __pycache__/
 .cache/
 eval/results/*
 !eval/results/keyword_extractive.json
+.agents/

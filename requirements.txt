@@ -1,0 +1,10 @@
+# Used by Streamlit Community Cloud. For local development, `pip install -e ".[dev]"` is enough.
+pypdf>=5.0
+rank-bm25>=0.2.2
+numpy>=1.26
+fastembed>=0.4
+openai>=1.40
+fastapi>=0.110
+uvicorn>=0.29
+python-multipart>=0.0.9
+streamlit>=1.45

@@ -4,8 +4,13 @@ Run:  streamlit run app.py
 """
 
 import re
+import sys
+from pathlib import Path
 
 import streamlit as st
+
+# Lets the app run on hosts that install requirements.txt but not this package itself.
+sys.path.insert(0, str(Path(__file__).parent / "src"))
 
 from policy_assistant.config import Settings
 from policy_assistant.pipeline import PolicyAssistant

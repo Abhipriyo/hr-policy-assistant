@@ -143,7 +143,7 @@ All settings come from environment variables. See `.env.example`.
 | --- | --- | --- |
 | `GROQ_API_KEY` or `LLM_API_KEY` | none | API key. Without it, answers are extractive quotes. |
 | `LLM_BASE_URL` | Groq's endpoint | Any OpenAI-compatible endpoint: OpenAI, Together, OpenRouter, local Ollama |
-| `LLM_MODEL` | `llama-3.3-70b-versatile` | Check the current model list in your provider's console |
+| `LLM_MODEL` | `openai/gpt-oss-120b` | Check the current model list in your provider's console |
 | `USE_DENSE` | `true` | `false` turns off semantic search |
 | `TOP_K` | `5` | Chunks sent to the LLM |
 | `MIN_KEYWORD_COVERAGE` | `0.25` | Evidence-gate threshold for keyword overlap |

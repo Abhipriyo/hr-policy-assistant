@@ -62,7 +62,9 @@ class ChatLLM:
         from openai import OpenAI
         self.model = model
         self.temperature = temperature
-        self.client = OpenAI(api_key=api_key, base_url=base_url, timeout=timeout, max_retries=2)
+        # Ask for gzip, not brotli: mismatched brotli versions break response decoding on some machines.
+        self.client = OpenAI(api_key=api_key, base_url=base_url, timeout=timeout, max_retries=2,
+                             default_headers={"Accept-Encoding": "gzip, deflate"})
 
     def generate(self, messages: list[dict]) -> LLMResult:
         response = self.client.chat.completions.create(
